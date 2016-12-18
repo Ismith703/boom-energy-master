@@ -1,0 +1,118 @@
+
+
+
+/*Big Tablet to 1200 (wdiths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) { 
+    
+}
+
+/*Small Tablet to big table: from 768-1023 px*/
+@media only screen and (max-width: 1023px) { 
+       
+    .logo { transform: scale(.90); }
+	
+	#primary_nav_wrap { font-size: 90%; }
+    
+    .main-nav { display: inline-block; }
+	
+	#mep { font-size: 82%; }
+	
+	#energy-procurement { font-size: 85%; }
+	
+    h3 { font-size: 100%; }
+    
+	#mission { font-size: 100%; } 
+    
+    .logo2 { display: none; }
+  
+    .legal {
+        width: 22em;
+        font-size: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+	
+    address { margin: 0 auto; }
+	
+    .social-links {
+        padding-right: 26px;
+        padding-top: 3px;  }
+  
+}
+
+/*Small phone to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) { 
+    
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+/*MOBILE NAVIGATION-LEXICON*/
+    .main-nav { display: none; }
+    .mobile-nav-icon { display: inline-block; }
+    .main-nav {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a: visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #0b0b0b; }
+
+}
+/*This is for the IPhone 0-480px*/
+@media only screen and (max-width: 480px) { 
+	
+	#primary_nav_wrap { font-size: 62%; }
+	
+    #logo-small { 
+		transform: scale(.75);
+    	padding: none; }
+	
+    .mobile-nav-icon { display: inline-block;
+    float: right; 
+    }
+    
+    .logo2 { display: none; }
+	
+    .social-links {
+        margin-top: -40%;
+        padding-right: 7px;
+    }
+}
+
+
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
